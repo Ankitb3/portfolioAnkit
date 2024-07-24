@@ -28,11 +28,10 @@ const HeroSection = () => {
           <LetterPullup words={"Hi :) I'm Ankit"} delay={0.05} />
           <BoxReveal boxColor={"#5046e6"} duration={0.5}>
             <ShimmerButton>
-            <p className="text-[3.5rem] font-bold cursor-pointer">
+            <p className="text-2xl lg:text-6xl font-bold cursor-pointer">
               Frontend Developer<span className="text-[#5046e6]">.</span>
             </p>
-            </ShimmerButton>
-           
+            </ShimmerButton>   
           </BoxReveal>
 
           <BoxReveal boxColor={"#5046e6"} duration={0.5}>
@@ -43,7 +42,7 @@ const HeroSection = () => {
           </BoxReveal>
 
           <BoxReveal boxColor={"#5046e6"} duration={0.5}>
-            <div className="mt-[1.5rem] font-semibold text-lg">
+            <div className="mt-[1.5rem] font-semibold text-lg ms-2">
               <p>
                 -&gt; Highly motivated and enthusiastic Frontend Engineer with
                 experience in designing . <br />
