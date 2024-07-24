@@ -1,6 +1,7 @@
 import React, { CSSProperties } from "react";
 
 import { cn } from "../lib/utils";
+import { Link } from "react-router-dom";
 
 export interface ShimmerButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
@@ -11,6 +12,7 @@ export interface ShimmerButtonProps
   background?: string;
   className?: string;
   children?: React.ReactNode;
+  to:string
 }
 
 const ShimmerButton = React.forwardRef<HTMLButtonElement, ShimmerButtonProps>(
@@ -23,11 +25,14 @@ const ShimmerButton = React.forwardRef<HTMLButtonElement, ShimmerButtonProps>(
       background = "rgba(0, 0, 0, 1)",
       className,
       children,
+      to,
       ...props
     },
     ref,
   ) => {
+   
     return (
+      <Link to={to}>
       <button
         style={
           {
@@ -87,6 +92,7 @@ const ShimmerButton = React.forwardRef<HTMLButtonElement, ShimmerButtonProps>(
           )}
         />
       </button>
+      </Link>
     );
   },
 );

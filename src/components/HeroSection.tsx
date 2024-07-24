@@ -27,7 +27,7 @@ const HeroSection = () => {
         <div className=" flex flex-col justify-center items-center">
           <LetterPullup words={"Hi :) I'm Ankit"} delay={0.05} />
           <BoxReveal boxColor={"#5046e6"} duration={0.5}>
-            <ShimmerButton>
+            <ShimmerButton to="">
             <p className="text-2xl lg:text-6xl font-bold cursor-pointer">
               Frontend Developer<span className="text-[#5046e6]">.</span>
             </p>

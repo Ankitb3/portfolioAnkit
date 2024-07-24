@@ -6,7 +6,8 @@ import { BackgroundGradientAnimation } from './magicui/Gradientbg.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
-  <BackgroundGradientAnimation>    <App />
+  <BackgroundGradientAnimation>
+  <App />
   </BackgroundGradientAnimation>
   </BrowserRouter>,
 )
