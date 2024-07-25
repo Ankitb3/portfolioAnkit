@@ -89,7 +89,7 @@ export const BackgroundGradientAnimation = ({
   return (
     <div
       className={cn(
-        "h-screen w-screen relative overflow-hidden top-0 left-0 bg-black text-white",
+        "h-[200vh]  relative overflow-hidden top-0 left-0 bg-black text-white",
         containerClassName
       )}
     >

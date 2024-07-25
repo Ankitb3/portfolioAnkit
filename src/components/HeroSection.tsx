@@ -5,7 +5,7 @@ import { FollowerPointerCard, TitleComponent } from "../magicui/Pointer";
 import ShimmerButton from "../magicui/ButtonAnimated";
 const HeroSection = () => {
   return (
-    <div>
+    <div className="min-h-screen">
       <FollowerPointerCard
         title={
           <TitleComponent

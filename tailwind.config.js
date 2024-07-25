@@ -16,8 +16,19 @@ export default {
         slide: "slide var(--speed) ease-in-out infinite alternate",
         aurora: "aurora 60s linear infinite",
         spotlight: "spotlight 2s ease .75s 1 forwards",
+        orbit: "orbit calc(var(--duration)*1s) linear infinite",
       },
       keyframes: {
+        orbit: {
+          "0%": {
+            transform:
+              "rotate(0deg) translateY(calc(var(--radius) * 1px)) rotate(0deg)",
+          },
+          "100%": {
+            transform:
+              "rotate(360deg) translateY(calc(var(--radius) * 1px)) rotate(-360deg)",
+          },
+        },
         spotlight: {
           "0%": {
             opacity: 0,

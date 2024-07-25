@@ -2,12 +2,12 @@ import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
 import { BrowserRouter } from 'react-router-dom'
-import { BackgroundGradientAnimation } from './magicui/Gradientbg.tsx'
+import { Sparkle } from './components/Sparkle.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
-  <BackgroundGradientAnimation>
-  <App />
-  </BackgroundGradientAnimation>
+    <Sparkle>  <App />
+    </Sparkle>
+
   </BrowserRouter>,
 )
