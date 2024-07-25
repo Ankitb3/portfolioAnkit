@@ -53,11 +53,8 @@ const HeroSection = () => {
             </div>
           </BoxReveal>
 
-          {/* <BoxReveal boxColor={"#5046e6"} duration={0.5}>
-        <Button className="mt-[1.6rem] bg-[#5046e6]">Explore</Button>
-      </BoxReveal> */}
+          
         </div>
-        {/* <DockDemo/> */}
     </div>
   );
 };
