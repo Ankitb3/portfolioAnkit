@@ -80,6 +80,15 @@ const Skills = () => {
       </OrbitingCircles>
       <OrbitingCircles
         className="size-[50px] border-none bg-transparent"
+        radius={190}
+        duration={20}
+        delay={20}
+        reverse
+      >
+        <Icons.postman />
+      </OrbitingCircles>
+      <OrbitingCircles
+        className="size-[50px] border-none bg-transparent"
         radius={260}
         duration={20}
         delay={10}
@@ -154,5 +163,8 @@ const Icons = {
   ),
   boostrap: () => (
     <img src="https://cdn.iconscout.com/icon/free/png-512/free-bootstrap-226077.png?f=webp&w=256"/>
+  ),
+  postman: () => (
+    <img src="https://cdn.iconscout.com/icon/free/png-512/free-postman-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-vol-5-pack-logos-icons-3030217.png?f=webp&w=256"/>
   ),
 };

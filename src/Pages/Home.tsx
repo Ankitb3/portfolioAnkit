@@ -3,6 +3,8 @@ import Navbar from "../components/Navbar";
 import Projects from "../components/Projects";
 import TextRevealCmp from "../components/Quote";
 import Skills from "../components/Skills";
+import Study from "../components/Study";
+import Todo from "../components/Todo";
 
 const Home = () => {
   return (
@@ -12,6 +14,8 @@ const Home = () => {
       <Skills />
       <TextRevealCmp text={"Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program."}/>
       <Projects />
+      <Study/>
+      <Todo/>
     </div>
   );
 };
