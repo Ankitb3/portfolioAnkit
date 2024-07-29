@@ -1,3 +1,4 @@
+import GetInTouch from "../components/GetInTouch";
 import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar";
 import Projects from "../components/Projects";
@@ -8,7 +9,7 @@ import Todo from "../components/Todo";
 
 const Home = () => {
   return (
-    <div>
+    <div className="font-mono">
       <Navbar />
       <HeroSection />
       <Skills />
@@ -16,6 +17,7 @@ const Home = () => {
       <Projects />
       <Study/>
       <Todo/>
+      <GetInTouch/>
     </div>
   );
 };

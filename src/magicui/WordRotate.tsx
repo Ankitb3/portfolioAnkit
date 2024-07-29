@@ -1,6 +1,7 @@
 
 import { useEffect, useState } from "react";
 import { AnimatePresence, HTMLMotionProps, motion } from "framer-motion";
+import { FaRegHandPointRight } from "react-icons/fa";
 
 import { cn } from "../lib/utils";
 
@@ -34,16 +35,19 @@ export default function WordRotate({
   }, [words, duration]);
 
   return (
-    <div className="overflow-hidden py-2">
+    <div className="flex justify-center">
+      <div className="overflow-hidden py-2  w-[75%]">
       <AnimatePresence mode="wait">
         <motion.h1
           key={words[index]}
           className={cn(className)}
           {...framerProps}
         >
-          {words[index]}
+         <FaRegHandPointRight className="relative top-8 text-blue-500"/> {words[index]}
         </motion.h1>
       </AnimatePresence>
     </div>
+    </div>
+    
   );
 }

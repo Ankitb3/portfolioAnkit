@@ -26,6 +26,6 @@ const items: TabsProps['items'] = [
  
 ];
 
-const Tab: React.FC = () => <Tabs defaultActiveKey="1" animated={true} items={items} onChange={onChange} className='text-white'/>;
+const Tab: React.FC = () => <Tabs defaultActiveKey="1" animated={true} items={items} onChange={onChange} className='text-white w-[95%] ms-4'/>;
 
 export default Tab;

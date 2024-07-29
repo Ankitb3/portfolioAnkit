@@ -8,7 +8,7 @@ interface Props{
 }
 const StudyCard = ({img,date,course,collageName,gradiuate}:Props) => {
   return (
-    <div className=" bg-[#131824] lg:w-[60%] w-[95%] mt-4 border rounded" style={{
+    <div className=" bg-[#131824] lg:w-[60%] w-[95%] mt-4 border rounded hover:translate-x-4 cursor-pointer delay-75" style={{
         zIndex:"-1"
     }}>
         <div className="flex ">

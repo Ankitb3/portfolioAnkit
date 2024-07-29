@@ -83,7 +83,6 @@ const Skills = () => {
         radius={190}
         duration={20}
         delay={20}
-        reverse
       >
         <Icons.postman />
       </OrbitingCircles>
