@@ -14,7 +14,7 @@ const Navbar = () => {
             avatar={profile}
           />
         }
-      >  <h2 className="text-[#5046e6] font-semibold text-2xl">Ankit</h2>
+      >  <h2 className="text-blue-500 font-bold text-2xl">Ankit</h2>
 </FollowerPointerCard>
       </div>
       <div className="flex gap-2">

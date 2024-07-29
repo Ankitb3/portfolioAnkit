@@ -3,13 +3,12 @@ import OrbitingCircles from "../magicui/OrbitCircle";
 const Skills = () => {
   return (
     
-    <div className="min-h-screen">
-           <h2 className="text-blue-600 font-semibold text-4xl text-center">Skills</h2>
+    <div className="lg:min-h-screen">
+           <h2 className="text-blue-500 font-semibold text-4xl text-center">Skills</h2>
         <div className="relative flex h-[550px] w-full flex-col items-center justify-center overflow-hidden rounded-lg md:shadow-xl">
       <span className="pointer-events-none whitespace-pre-wrap  bg-clip-text text-center text-4xl font-semibold leading-none text-transparent ">
         Frontend developement
       </span>
-     
       <OrbitingCircles
         className="size-[30px] border-none bg-transparent"
         duration={20}
@@ -105,6 +104,7 @@ const Skills = () => {
       </OrbitingCircles>
     </div>
     </div>
+
   )
 }
 
