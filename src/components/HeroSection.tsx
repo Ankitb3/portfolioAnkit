@@ -45,13 +45,6 @@ const HeroSection = () => {
           <TypewriterEffectSmooth words={words} />
 
           <BoxReveal boxColor={"#3B82F6"} duration={0.5}>
-            <h2 className="mt-[.5rem] text-[1rem] font-semibold">
-              Frontend Developer{" "}
-              <span className="text-blue-500">Design Engineers</span>
-            </h2>
-          </BoxReveal>
-
-          <BoxReveal boxColor={"#3B82F6"} duration={0.5}>
             <div className="mt-[1.5rem] font-semibold text-lg ms-2 text-center">
               <p>
                 -&gt; Highly motivated and enthusiastic Frontend Engineer with
