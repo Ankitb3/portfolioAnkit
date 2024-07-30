@@ -1,4 +1,3 @@
-"use client";
 
 import { FC, ReactNode, useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
@@ -62,7 +61,7 @@ const Word: FC<WordProps> = ({ children, progress, range }) => {
       <span className={"absolute opacity-30"}>{children}</span>
       <motion.span
         style={{ opacity: opacity }}
-        className={"text-black dark:text-white"}
+        className={"text-black dark: "}
       >
         {children}
       </motion.span>
