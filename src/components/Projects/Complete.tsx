@@ -1,5 +1,6 @@
 import ProjectCard from "../ProjectCard";
 import CryptoWorld from "../../assets/Cryptoworld.png"
+import Portfolio from "../../assets/AnkitDev.png"
 const movieTechstack = [
   "https://cdn-icons-png.flaticon.com/128/732/732212.png",
   "https://cdn-icons-png.flaticon.com/128/732/732190.png",
@@ -10,20 +11,40 @@ const movieTechstack = [
 const roadtocode = [
   "https://cdn-icons-png.flaticon.com/128/732/732212.png",
   "https://cdn-icons-png.flaticon.com/128/732/732190.png",
+  "https://cdn-icons-png.flaticon.com/128/1126/1126012.png",
   "https://img.icons8.com/?size=48&id=20906&format=png",
   "https://cdn-icons-png.flaticon.com/128/5968/5968292.png",
 ];
 const cryptoWorld = [
     "https://cdn-icons-png.flaticon.com/128/732/732212.png",
     "https://cdn-icons-png.flaticon.com/128/732/732190.png",
-    "https://img.icons8.com/?size=48&id=20906&format=png",
+    "https://cdn-icons-png.flaticon.com/128/1126/1126012.png",
     "https://cdn-icons-png.flaticon.com/128/5968/5968292.png",
     "https://magicui.design/icon.png",
     "https://ui.aceternity.com/_next/image?url=%2Flogo.png&w=64&q=75"
   ];
+  const poerfolio = [
+    "https://cdn-icons-png.flaticon.com/128/732/732212.png",
+    "https://cdn-icons-png.flaticon.com/128/732/732190.png",
+    "https://cdn-icons-png.flaticon.com/128/1126/1126012.png",
+    "https://cdn-icons-png.flaticon.com/128/919/919832.png",
+    "https://cdn-icons-png.flaticon.com/128/5968/5968292.png",
+    "https://magicui.design/icon.png",
+    "https://ui.aceternity.com/_next/image?url=%2Flogo.png&w=64&q=75"
+  ];
+
 const Complete = () => {
   return (
-      <div className="flex flex-wrap gap-60 lg:gap-0 justify-center mt-20">
+      <div className="flex flex-wrap  lg:h-[160vh] h-fit gap-60 lg:gap-0 justify-center mt-10">
+          <ProjectCard
+          to="https://portfolio-ankitdev.vercel.app/"
+          github="https://github.com/Ankitb3/portfolioAnkit"
+          techStack={poerfolio}
+          projectLink="https://portfolio-ankitdev.vercel.app/"
+          img={Portfolio}
+          projectName="Developer Portfolio"
+          desc="Simple and classic modern portfolio for who wants to present himself as a software developer. Portfolio build with highly customizable using Tailwind CSS, Reactjs."
+        />
          <ProjectCard
           to=""
           github="https://github.com/Ankitb3/crypto-app"

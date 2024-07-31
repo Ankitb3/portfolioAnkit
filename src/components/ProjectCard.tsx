@@ -29,7 +29,7 @@ const  ProjectCard=({projectName,desc,img,projectLink,to,techStack,github}:Props
           </div>
           <div className="flex justify-between ">{
             techStack.map((stack)=>(
-              <img src={stack} className="h-10 w-10"/>
+              <img src={stack} className="h-8 w-8"/>
             ))   
             }
         

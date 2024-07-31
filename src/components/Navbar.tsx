@@ -6,7 +6,7 @@ import profile from "../assets/ankitpic.jpg";
 const Navbar = () => {
 
   return (
-    <div className="flex justify-between m-2 border-b-[1px]">
+    <div className="flex justify-between m-2 border-b-[1px] lg:w-full w-[90%] relative left-2 lg:left-0">
       <div>
       <FollowerPointerCard
         title={

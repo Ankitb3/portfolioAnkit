@@ -6,6 +6,7 @@ import { TypewriterEffectSmooth } from "../magicui/TypeWriter";
 const words = [
   {
     text: "Frontend",
+    
   },
   {
     text: "Developer.",
@@ -45,7 +46,7 @@ const HeroSection = () => {
           <TypewriterEffectSmooth words={words} />
 
           <BoxReveal boxColor={"#3B82F6"} duration={0.5}>
-            <div className="mt-[1.5rem] font-semibold text-lg ms-2 text-center">
+            <div className="mt-[1.5rem] font-semibold text-lg m-2 text-center">
               <p>
                 -&gt; Highly motivated and enthusiastic Frontend Engineer with
                 experience in designing . <br />
