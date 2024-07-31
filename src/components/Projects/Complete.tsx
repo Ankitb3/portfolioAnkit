@@ -19,6 +19,7 @@ const cryptoWorld = [
     "https://cdn-icons-png.flaticon.com/128/732/732212.png",
     "https://cdn-icons-png.flaticon.com/128/732/732190.png",
     "https://cdn-icons-png.flaticon.com/128/1126/1126012.png",
+    "https://cdn-icons-png.flaticon.com/128/919/919832.png",
     "https://cdn-icons-png.flaticon.com/128/5968/5968292.png",
     "https://magicui.design/icon.png",
     "https://ui.aceternity.com/_next/image?url=%2Flogo.png&w=64&q=75"
