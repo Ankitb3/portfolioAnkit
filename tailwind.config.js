@@ -15,10 +15,15 @@ export default {
         "spin-around": "spin-around calc(var(--speed) * 2) infinite linear",
         slide: "slide var(--speed) ease-in-out infinite alternate",
         aurora: "aurora 60s linear infinite",
+        pulse: "pulse var(--duration) ease-out infinite",
         spotlight: "spotlight 2s ease .75s 1 forwards",
         orbit: "orbit calc(var(--duration)*1s) linear infinite",
       },
       keyframes: {
+        pulse: {
+          "0%, 100%": { boxShadow: "0 0 0 0 var(--pulse-color)" },
+          "50%": { boxShadow: "0 0 0 8px var(--pulse-color)" },
+        },
         orbit: {
           "0%": {
             transform:
