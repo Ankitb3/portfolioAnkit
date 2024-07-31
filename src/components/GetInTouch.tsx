@@ -4,7 +4,7 @@ import ContactForm from "./ContactForm"
 const GetInTouch = () => {
    
   return (
-    <div className="min-h-screen">
+    <div className="lg:min-h-screen">
         <div className="text-center">
         <h2 className="text-4xl font-semibold">Get In Touch</h2>
         <div className="text-center items-center justify-center flex mt-4">
