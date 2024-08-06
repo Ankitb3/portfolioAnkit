@@ -1,4 +1,5 @@
 import BackToTopButton from "../components/BackToTop";
+import Footer from "../components/Footer";
 import GetInTouch from "../components/GetInTouch";
 import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar";
@@ -20,6 +21,7 @@ const Home = () => {
       <Todo/>
       <GetInTouch/>
       <BackToTopButton/>
+      <Footer/>
     </div>
   );
 };

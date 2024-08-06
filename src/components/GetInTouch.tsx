@@ -6,7 +6,7 @@ const GetInTouch = () => {
   return (
     <div className="lg:min-h-screen">
         <div className="text-center">
-        <h2 className="text-4xl font-semibold">Get In Touch</h2>
+        <h2 className="text-4xl font-semibold underline">Get In Touch</h2>
         <div className="text-center items-center justify-center flex mt-4">
         <p className="lg:w-[40%] w-[90%] text-lg ">I'm actively looking for any new opportunities, my inbox is always open. Whether you have a question or want to hire me or just want to say hello, I'll try my best to get back to you!</p>
 
