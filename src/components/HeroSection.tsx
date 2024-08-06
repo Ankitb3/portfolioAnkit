@@ -15,7 +15,7 @@ const words = [
 ];
 const HeroSection = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen mt-10">
       <FollowerPointerCard
         title={
           <TitleComponent
