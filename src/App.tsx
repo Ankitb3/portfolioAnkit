@@ -3,7 +3,7 @@ import Loading from "./components/Loading";
 import "./App.css"
 const Home = lazy(() => import('./Pages/Home'));
 const LoadingFallback = () => (
-  <div className="min-h-screen">
+  <div className="min-h-screen overflow-hidden">
     <Loading/>
   </div>
 );
