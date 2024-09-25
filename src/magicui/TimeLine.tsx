@@ -4,6 +4,7 @@ import React, { useEffect, useRef, useState } from "react";
 interface TimelineEntry {
   title: string;
   content: React.ReactNode;
+  img:string;
   company: string;
 }
 
@@ -51,7 +52,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     >
       <div className="sticky flex flex-col md:flex-row  items-center top-40 self-start max-w-xs lg:max-w-sm md:w-full">
         <div className="h-10 absolute left-3 md:left-3 w-10 rounded-full bg-white flex items-center justify-center">
-          <div className="h-4 w-4 rounded-full bg-neutral-200 border border-neutral-300 p-2" />
+         <img className="rounded h-5 w-5" src={item.img}/>
         </div>
         <div className="flex lg:flex-col ">
           <h3 className="hidden md:block text-lg md:pl-20 md:text-3xl font-bold">
