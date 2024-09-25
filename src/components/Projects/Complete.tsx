@@ -1,6 +1,8 @@
 import ProjectCard from "../ProjectCard";
 import CryptoWorld from "../../assets/Cryptoworld.png"
 import Portfolio from "../../assets/AnkitDev.png"
+import Prohired from '../../assets/prohired.jpg'
+
 const movieTechstack = [
   "https://cdn-icons-png.flaticon.com/128/732/732212.png",
   "https://cdn-icons-png.flaticon.com/128/732/732190.png",
@@ -47,6 +49,15 @@ const Complete = () => {
           desc="Simple and classic modern portfolio for who wants to present himself as a software developer. Portfolio build with highly customizable using Tailwind CSS, Reactjs."
         />
          <ProjectCard
+          to="https://prohired.netlify.app/"
+          github="https://github.com/Ankitb3/ProHire"
+          techStack={cryptoWorld}
+          projectLink="https://prohired.netlify.app/"
+          img={Prohired}
+          projectName="Pro Hired"
+          desc="ProHired is your go-to platform for seamless job postings and applications. Employers can easily list jobs, review applications, and gather feedback, while job seekers can browse opportunities and share their experiences."
+        />
+         <ProjectCard
           to=""
           github="https://github.com/Ankitb3/crypto-app"
           techStack={cryptoWorld}
@@ -62,7 +73,7 @@ const Complete = () => {
           projectLink="https://movieimdb1.netlify.app/"
           img="https://personalportfolioankit.netlify.app/assets/movie-c2e4e740.png"
           projectName="Movie App"
-          desc="The movie app is a comprehensive platform designed to help users discover, explore, and enjoy movies from various genres, languages, and countries. With a user-friendly interface and powerful features"
+          desc="The movie app is a comprehensive platform designed to help users discover, explore."
         />
          <ProjectCard
           to="https://road-to-js.netlify.app/"

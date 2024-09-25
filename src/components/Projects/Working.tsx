@@ -1,6 +1,6 @@
 import ProjectCard from "../ProjectCard";
 import CryptoWorld from "../../assets/Cryptoworld.png"
-
+import Prohired from '../../assets/prohired.jpg'
 const cryptoWorld = [
     "https://cdn-icons-png.flaticon.com/128/732/732212.png",
     "https://cdn-icons-png.flaticon.com/128/732/732190.png",
@@ -20,6 +20,15 @@ const Working = () => {
           img={CryptoWorld}
           projectName="Crypto World"
           desc="The Crypto World App is designed to provide users with a seamless experience in exploring and managing cryptocurrencies. It allows users to add coins to their favorites for quick access and monitoring."
+        />
+         <ProjectCard
+          to="https://prohired.netlify.app/"
+          github="https://github.com/Ankitb3/ProHire"
+          techStack={cryptoWorld}
+          projectLink="https://prohired.netlify.app/"
+          img={Prohired}
+          projectName="Pro Hired"
+          desc="ProHired is your go-to platform for seamless job postings and applications. Employers can easily list jobs, review applications, and gather feedback, while job seekers can browse opportunities and share their experiences."
         />
       </div>
   );
